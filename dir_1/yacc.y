@@ -20,7 +20,8 @@ int vars[26];  /* variable store: a=0, b=1, ... */
 %token ASSIGN PLUS MINUS SEMICOLON LBRACE RBRACE LPAREN RPAREN
 %token EQ GT LT
 
-%type <num> expression condition statement
+%type <num> expression condition 
+
 
 %%
 
