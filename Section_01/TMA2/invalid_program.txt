@@ -1,0 +1,13 @@
+* **`invalid_program.txt`** (Should report a syntax error)
+    ```
+    // An invalid program with syntax errors
+    func myFunc(x: integer) => void {
+        local y: float
+        // Missing semicolon above!
+
+        y = 10.5; // Should be := for assignment
+
+        if (x > 5) then
+            write(x)
+        // Missing semicolon
+    }

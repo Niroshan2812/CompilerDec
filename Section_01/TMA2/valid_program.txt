@@ -1,0 +1,7 @@
+
+    // A valid program to test the parser
+    class MyClass {
+        public attribute myVar : integer[];
+    };
+
+    
