@@ -1,0 +1,10 @@
+// This is a test program
+/*
+    It tests various tokens.
+*/
+func myFunc(x: integer) {
+    if x > 10 then
+        x := x - 1;
+    else
+        write(x);
+}

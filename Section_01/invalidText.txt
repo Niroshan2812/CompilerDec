@@ -1,0 +1,5 @@
+// Test for lexical errors
+int bad_var@ = 10; // Contains an illegal character '@'
+float pi = 3.14.15; // malformed float
+
+/* This block comment is never closed
