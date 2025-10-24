@@ -1,5 +1,5 @@
 // symbol_table.c 
-
+// Store infromation about declared identifiers (like variables )
 #include <stdio.h>
 #include <string.h>
 
